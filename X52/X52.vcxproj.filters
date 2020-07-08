@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C_Control.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="C_KeyboardHook.cpp">
+      <Filter>Objetos</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Joystick.cpp">
+      <Filter>Objetos</Filter>
+    </ClCompile>
+    <ClCompile Include="C_X52.cpp">
+      <Filter>Objetos</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C_Control.h" />
+    <ClInclude Include="Eventos.h" />
+    <ClInclude Include="Frame.h" />
+    <ClInclude Include="C_KeyboardHook.h">
+      <Filter>Objetos</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Joystick.h">
+      <Filter>Objetos</Filter>
+    </ClInclude>
+    <ClInclude Include="C_X52.h">
+      <Filter>Objetos</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Objetos">
+      <UniqueIdentifier>{5ca4d822-9675-4d3d-9bbf-245a891a2a2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{07642783-46cb-44e9-8d65-dd3eaee06c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arduino">
+      <UniqueIdentifier>{5537024c-4f3e-4633-aeb7-e25087355f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\compuesto">
+      <UniqueIdentifier>{8fc0c092-e2c9-4377-83d8-695e7dce7fd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Arduino.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Switch.cpp">
+      <Filter>Main\compuesto</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Pote.cpp">
+      <Filter>Main\compuesto</Filter>
+    </ClCompile>
+    <ClCompile Include="C_ShiftOut.cpp">
+      <Filter>Main\compuesto</Filter>
+    </ClCompile>
+    <ClCompile Include="C_ShiftIn.cpp">
+      <Filter>Main\compuesto</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Display.cpp">
+      <Filter>Main\compuesto</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Arduino</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Frame.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Eventos.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Arduino.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Arduino_PC.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Switch.h">
+      <Filter>Main\compuesto</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Pote.h">
+      <Filter>Main\compuesto</Filter>
+    </ClInclude>
+    <ClInclude Include="C_ShiftOut.h">
+      <Filter>Main\compuesto</Filter>
+    </ClInclude>
+    <ClInclude Include="C_ShiftIn.h">
+      <Filter>Main\compuesto</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Display.h">
+      <Filter>Main\compuesto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo_Arduino\Clases\C_MultiLed.h">
+      <Filter>Arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo_Arduino\Clases\C_Comunicacion.h">
+      <Filter>Arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo_Arduino\Clases\C_Control.h">
+      <Filter>Arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo_Arduino\Clases\C_GrupoChip.h">
+      <Filter>Arduino</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\readme.md" />
+    <None Include="..\Codigo_Arduino\1_Placa1.cpp">
+      <Filter>Arduino</Filter>
+    </None>
+    <None Include="..\Codigo_Arduino\Recursos\C_MultiLed.ino">
+      <Filter>Arduino</Filter>
+    </None>
+    <None Include="..\Codigo_Arduino\Recursos\C_Comunicacion.ino">
+      <Filter>Arduino</Filter>
+    </None>
+  </ItemGroup>
+</Project>
