@@ -41,6 +41,7 @@
 //#include "Funciones.h"
 #include "Eventos.h"
 
+
 #pragma comment (lib, "DirectOutput.lib")
 
 #pragma comment (lib, "dinput8.lib")

@@ -12,6 +12,7 @@
     <ClCompile Include="C_X52.cpp">
       <Filter>Objetos</Filter>
     </ClCompile>
+    <ClCompile Include="Funcionalidades.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C_Control.h" />
@@ -26,6 +27,7 @@
     <ClInclude Include="C_X52.h">
       <Filter>Objetos</Filter>
     </ClInclude>
+    <ClInclude Include="Funcionalidades.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\readme.md" />

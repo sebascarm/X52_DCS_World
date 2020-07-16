@@ -178,6 +178,7 @@
     <ClCompile Include="C_Joystick.cpp" />
     <ClCompile Include="C_KeyboardHook.cpp" />
     <ClCompile Include="C_X52.cpp" />
+    <ClCompile Include="Funcionalidades.cpp" />
     <ClCompile Include="WinMain.cpp">
       <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MultiThreaded</RuntimeLibrary>
       <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MultiThreaded</RuntimeLibrary>
@@ -198,6 +199,7 @@
     <ClInclude Include="C_X52.h" />
     <ClInclude Include="Eventos.h" />
     <ClInclude Include="Frame.h" />
+    <ClInclude Include="Funcionalidades.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\readme.md" />

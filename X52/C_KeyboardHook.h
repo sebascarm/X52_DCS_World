@@ -4,6 +4,7 @@ class C_KeyboardHook{
 
 public:
 	void SetHook();
+	void UnHook();
 	void Start();	// Aparentemente no necesario
 	// Asignar Eventos		
 	void	Assign_Event_Hook(void(*Function)(int ASCII)); // Devuelve el codigo Ascii

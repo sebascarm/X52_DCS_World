@@ -32,6 +32,12 @@ if (!(_hook_keyboard = SetWindowsHookEx(WH_KEYBOARD_LL, HookCallbackKeyboard, NU
     }
 }
 
+void C_KeyboardHook::UnHook() {
+    UnhookWindowsHookEx(_hook_keyboard);
+    _hook_keyboard = NULL;
+    Function_Hook = Function_Hook_Empty;
+}
+
 void C_KeyboardHook::Assign_Event_Hook(void(*Function)(int ASCII)){
     Function_Hook = Function;
 }
